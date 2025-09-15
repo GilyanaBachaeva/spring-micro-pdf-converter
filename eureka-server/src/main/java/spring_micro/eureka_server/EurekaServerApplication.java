@@ -3,7 +3,8 @@ package spring_micro.eureka_server;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
+@spring_micro.eureka_server.SpringBootApplication
+@EnableEurekaServer
 public class EurekaServerApplication {
 
 	public static void main(String[] args) {
